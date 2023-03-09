@@ -1,0 +1,93 @@
+.frame {
+    width: 500px;
+    height: 700px;
+    margin-top: 200px;
+    margin-left: 400px;
+    border: 3px solid #000;
+    margin-bottom: 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategrey;
+    border-radius: 40px;
+}
+
+
+
+.screen {
+    width: 450px;
+    height: 100px;
+    margin-top: 20px;
+    border: 3px solid hsl(0, 0%, 0%);
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    background-color: aliceblue;
+    
+  }
+  
+  .screen:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .screen > * {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: aliceblue;
+  }
+  
+/*
+
+
+.screen {
+    width: 450px;
+    height: 100px;
+    margin-top: 20px;
+    border: 3px solid hsl(0, 0%, 0%);
+    font-size: 50px;
+    text-align: right;
+
+}
+
+
+*/
+
+
+.content-buttons {
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    font-size: xxx-large;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.clear-delete {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+
+.modify {
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+    background-color: #e1d56f;
+    border-radius: 10px;
+    font-family: ui-rounded;
+    font-weight: bold;
+}
