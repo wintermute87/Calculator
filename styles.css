@@ -13,8 +13,7 @@
 }
 
 
-
-.screen {
+.screen-all {
     width: 450px;
     height: 100px;
     margin-top: 20px;
@@ -23,7 +22,25 @@
     text-align: right;
     position: relative;
     background-color: aliceblue;
-    
+}
+
+
+
+.screen {
+    width: 450px;
+    height: 50px;
+
+/*
+    width: 450px;
+    height: 100px;
+    margin-top: 20px;
+    border: 3px solid hsl(0, 0%, 0%);
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    background-color: aliceblue;
+*/
+
   }
   
   .screen:before {
@@ -39,6 +56,12 @@
     background-color: aliceblue;
   }
   
+  .screen-result-operation {
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+  }
+
 /*
 
 
